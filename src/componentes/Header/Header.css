@@ -1,0 +1,138 @@
+  /*  Estilo del header  */
+
+header {
+    padding: 0 2rem;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+    /*  Estilo del navbar  */
+  
+  .navbar {
+    width: 100%;
+    height: 140px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+    /*  Estilo del logo  */
+  .logo a {
+    color: rgb(136, 126, 126);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+    /*  Estilo de los links del navbar  */
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  /*  Estilo de los links del navbar  */
+  .links a {
+    text-decoration: none;
+    color: rgb(136, 126, 126);
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    padding: 5px;
+    transform: scale(1.2);
+    position: sticky;
+    border-bottom: 2px solid transparent;
+  }
+  
+  /*  Hover sobre navbar  */
+  header a:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(77, 184, 196);
+    border-radius: 50px;
+    transform: scale(1.2);
+  }
+  
+  /*  Link marcado   */
+  
+  .activeLink {
+    background-color: rgb(77, 184, 196);
+    color: white;
+    border-radius: 50px;
+  }
+
+/*  Icono  */
+  
+  .menuBtn {
+    color: rgb(77, 184, 196);
+    cursor: pointer;
+    display: none;
+    font-size: larger;
+  }
+
+
+
+  
+  
+  /* Responsive */
+  
+  @media (max-width: 1180px) {
+
+    /*  Estilo del header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+  
+    /* Icono permanece fijo */
+    .links, .auth {
+      display: none;
+    }
+  
+    /* Muestra el icono de hamburguesa */
+    .menuBtn {
+      display: block;
+    }
+  
+    /* Espacio del sidebar */
+    .links.hidden {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 120px;
+      left: 0;
+      background-color: white;
+      width: 70%;
+      height: 70vh;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);      
+    }
+
+
+  
+    .links.hidden a {
+      display: block;
+      padding: 10px;      
+    }
+
+
+    header a{
+        width: 80%;
+        margin-left: 10%;
+        margin: none;
+        padding: 0%;
+        font-size: xx-small;
+        color: white;
+            }
+
+    header a:hover {
+        color: white;
+width: 80%;
+margin-left: 10%;
+margin: none;
+padding: 0%;
+    }
+  }
+  

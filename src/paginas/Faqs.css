@@ -1,0 +1,113 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+    justify-content: space-around;
+    background-color: rgba(19,41,65,255);
+  }
+  
+  .with-image {
+    background: url('../Imagenes/Faqs/captura1.png') no-repeat center center / cover;
+    position: relative;
+    width: 100%; /* Use 100% width for responsiveness */
+    height: 50vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: rgb(13, 13, 63);
+    text-align: center;
+    font-size: 1.4em;
+    width: 70%;
+    
+  }
+  
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+  }
+
+
+/* Acordion */
+
+.accordion-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.979);
+    text-align: left;
+    width: 90%;   
+    padding: 3%;
+
+  }
+  
+  /* Acordeon principal */
+  .question {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(77, 184, 196);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+    text-align: left;
+  }
+
+   /* Preguntas */
+  .answer {
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 4px;
+    transition: border 0.3s;
+    margin-top: 10px; /* Add margin to separate answers */
+    margin: 1%;
+    
+  }
+  
+   /* Respuestas */
+  .additional-answer {
+    background-color: rgb(243, 241, 241);
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #555;
+    margin: none ;
+    padding: 1%;
+  }
+  
+
+
+
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+  
+    .with-image {
+      height: 80vh; /* Adjust height for small screens */
+    }
+  
+    .content {
+      top: 50%; /* Adjust vertical position on small screens */
+      transform: translate(-55%, -50%);
+      width: 80%;
+    }
+  
+    .content h1 {
+      font-size: 1.6em; /* Adjust font size for small screens */
+    }
+  
+    .content p {
+      font-size: 1em; /* Adjust font size for small screens */
+    }
+  }

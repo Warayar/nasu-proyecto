@@ -1,0 +1,283 @@
+
+.container-Suscribir {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color: rgba(19, 41, 65, 255);
+}
+
+
+/* Contenedor general de las tarjetas  */
+.pet-Suscribir {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;   
+
+  }
+
+
+  .with-image-Suscribir {
+  background: url('../Imagenes/Faqs/captura1.png') no-repeat center center / cover;
+  position: relative;
+  width: 100%; 
+  height: 150vh;
+  display: flex;
+  
+}
+
+
+  /* Imagen tipo login */
+  .content-Suscribir {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    flex-wrap: nowrap;
+    width: 87%;
+    background-color: rgba(0,35,77,255);
+    display: grid;
+    grid-gap: 15px;
+    margin-left: 7%;
+    color: black;
+    margin-top: 8%;
+    height: 18%;
+  }
+
+  .content-Suscribir h3 {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    flex-wrap: nowrap;
+    display: grid;
+    top: 105px;
+    color: white;
+  }
+
+  
+  .content-Suscribir img {
+    position: absolute;
+    top: -100px; /* Adjust this value based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 7px solid white;
+  }
+  
+   /* Contenedor del entorno superior e inferior de tarjetas  */
+  .ddl-Suscribir{
+    background-color: white;
+    margin-top: 8%;
+    width: 100%;
+    padding-top: 10px ;
+    margin-bottom: 50px;
+
+  }
+
+  /* Contenedor de cada tarjeta */
+  .card-Suscribir {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 13px;
+    margin: 10px;
+    width: calc(25% - 20px); /* 25% width for each card with margin */
+    height: 58vh;
+  box-sizing: border-box;    
+    
+  }
+
+  .card-Suscribir h4 {
+    background-color: rgba(77,183,196,255);
+    color: white;
+    border-radius: 25px;
+    height: 9%;
+    padding: 7px;
+    }
+  
+    /* Text inside card */
+.card-Suscribir label {
+    margin:  9px;
+    text-align: left;
+    float:left;
+    font-weight: 700;
+}
+
+.card-Suscribir input {
+    margin:  9px;
+    height: 8%;
+    text-align: left;
+    float:left;
+    border-radius: 4px;
+    border: 1px solid #ccc;    
+    width: 90%;
+}
+
+.select-container-Suscribir select {
+    margin-bottom: 10px; 
+    margin: none;
+    display: flex;
+    margin-left: 37%;
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;    
+  }
+
+  .ddl-Suscribir button{
+background-color: rgba(33,196,70,255);
+color: white;
+font-weight: 800;
+border-radius: 25px;
+width: 25%;
+height: 40px;
+margin-bottom: 5%;
+border: none;
+  }
+
+  .ddl-Suscribir button:hover {
+    background-color: rgba(230,230,230,255);
+    color: black;
+    border: 0.1px solid black;
+  }
+
+
+.card-Suscribir select {
+    margin:  9px;
+    height: 8%;
+    text-align: left;
+    float:left;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 90%;    
+}
+
+/* Estilos para el Icono, no lo inclui */
+/*
+.date-input-group {
+    position: relative;
+  }
+  
+  .date-icon {
+    position: absolute;
+    top: 80%;
+    right: -10px;
+    transform: translateY(1040%);
+    color: #555;
+    cursor: pointer;
+  }
+
+  .date-input-group input {
+    margin:  9px;
+    text-align: left;
+    float:left;
+    border-radius: 4px;
+    border: 1px solid #a39999;
+    width: 90%;
+    font-size: x-large;
+    color: #a39999;
+  }
+
+  */
+
+  @media (max-width: 768px) {
+    .container-Suscribir {
+        flex-direction: column; /* Stack items vertically on small screens */
+      }
+    
+      .with-image-Suscribir {
+        height: auto;/* Adjust height for small screens */
+       background-size: cover;
+       padding-bottom: 25%;
+    }
+
+      /* Azul de registro de mascotas */
+      .content-Suscribir{
+        top: 75px; /* Adjust vertical position on small screens */
+        height: auto;
+        background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(0, 0, 255, 0));
+        
+      }
+
+
+      .content-Suscribir img {
+        position: absolute;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 200px;
+        top: -110px;
+        border-radius: 100%;
+        border: 7px solid white;
+      }
+
+      .ddl-Suscribir{
+        margin-top: 30%;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: none;
+      }
+
+    .card-Suscribir {  /* perfecto */
+      width: calc(70% - -300px); /* 50% width for each card with margin on smaller screens */
+      height: 45vh;         
+    }
+
+    .pet-Suscribir {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;  
+      }
+
+
+    .card-Suscribir label {
+        margin:  9px;
+        text-align: left;
+        float:left;
+        font-weight: 700;
+        font-size: small;
+        
+    }
+
+
+    .card-Suscribir input {         /* Perfecto*/
+        margin:  1%;
+        height: 9%;
+        text-align: left;
+        float:left;
+        border-radius: 4px;
+        border: 1px solid #ccc;          
+        width: 100%;
+    }
+
+    .card-Suscribir select {         /* Perfecto*/
+        margin:  1%;
+        height: 9%;
+        text-align: left;
+        float:left;
+        border-radius: 4px;
+        border: 1px solid #ccc;          
+        width: 100%;
+    }
+
+    .card-Suscribir h4 {
+        background-color: rgba(77,183,196,255);
+        color: white;
+        border-radius: 25px;
+        height: 8%;
+        padding: 4px;
+        font-size:medium;
+        width: 100%;
+        }
+
+
+    .ddl-Suscribir button{
+        background-color: rgba(33,196,70,255);
+        color: white;
+        font-weight: 800;
+        border-radius: 25px;
+        width: 80%;
+        height: 40px;
+        margin-bottom: 5%;
+        border: none;
+          }
+  }
+  
