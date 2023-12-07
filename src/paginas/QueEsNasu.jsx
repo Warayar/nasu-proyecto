@@ -1,6 +1,6 @@
 import React from 'react';
-import './QueEsNasu.css';
 import InicioScroll from './InicioScroll';
+import '../estilos/QueEsNasu.css';
 
     const QueEsNasu = () => {
         document.title = "¿Quiénes somos?";

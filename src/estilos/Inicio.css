@@ -1,0 +1,598 @@
+
+
+.container-Inicio {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color: white;
+    overflow-x: hidden;  /* Evita que se haga el scroll a los lados */
+  }
+  
+  /*  */
+  .with-image-Inicio {
+    background: url('../Imagenes/Inicio/captura1.png') no-repeat center center / cover;
+    position: relative;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Add overflow: hidden to hide content that overflows */
+  }
+  
+  /* Titulo */
+  .content-Inicio {
+    width: 40%; /* Adjust the width as needed */
+    margin: 10px; /* Add margin for spacing */
+    color: rgb(13, 13, 63);
+    font-size: 1.4em;
+    z-index: 1; /* Add a higher z-index to keep it above the background image */
+    text-align: left; /* Align the text to the left */
+  }
+  
+  .content-Inicio h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .content-Inicio p {
+    font-size: 1.2em;
+    
+  }
+  
+  
+  .content-Inicio button {
+    margin: 5px;
+    padding: 10px 100px;
+    background: rgb(77, 184, 196);
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    border: none;
+  }
+  
+  
+  /* Seccion 2 */
+  .Segunda-section {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  
+  }
+  
+  .image-container {
+    position: relative;
+    width: calc(100% / 3); /* Adjust width as needed */
+  
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-content {
+    position: absolute;
+    top: 0;
+    width: 100%; padding: 20px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .image-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .image-content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .image-content button {
+    padding: 10px 20px;
+    background: rgb(255, 136, 0);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+    /* Seccion 3 */
+  .Tercera-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Tercera-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .Tercera-section p {
+    font-size: 1em;
+  }
+  
+  .Tercera-section button {
+    margin: 5px;
+    padding: 10px 100px;
+    background: rgb(77, 184, 196);
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+    /* Seccion 4 */
+  .cuarta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    padding: 2%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  }
+  
+  .cuarta-image {
+    width: 30%; /* Adjust width as needed */
+  }
+  
+  .cuarta-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .cuarta-content {
+    width: 55%; /* Adjust width as needed */
+  }
+  
+  .cuarta-content h2 {
+    margin-right: 30%;
+    font-size: 1.5em;
+    margin-bottom: 8%;
+    
+  }
+  
+  .cuarta-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cuarta-content li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cuarta-content li svg {
+    margin-right: 10px;
+    color: rgb(255, 136, 0);
+  }
+  
+  /* Seccion 5 */
+  .quinta-section {
+    position: relative;
+    text-align: center;
+  }
+  
+  .quinta-background {
+    width: 100vw; /* Adjusted to use viewport width */
+    height: 600px;
+    overflow: hidden;
+  }
+  
+  .quinta-background img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .quinta-content {
+    padding: 2%;
+    position: absolute;
+    top: 50%;
+    left: 35%; /* Change from 30% to 50% */
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 95%;
+    max-width: 900px; /* Adjust max-width as needed */
+    background-color: rgb(37, 37, 63);
+    border-radius: 25px;
+  }
+  
+  .quinta-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .quinta-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .quinta-content li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quinta-content li svg {
+    margin-right: 10px;
+    color: rgb(255, 136, 0);
+  }
+  
+  .quinta-content button {
+    margin: 30px;
+    padding: 10px 100px;
+    background: rgb(77, 184, 196);
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    border: none;
+  }
+  
+  .quinta-content .icon {
+    margin-right: 5px;
+  }
+  
+    /* Seccion 6 */
+  .sexta-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sexta-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .sexta-section p {
+    font-size: 1.2em;
+  }
+    
+  
+    /* Seccion 7 */
+  .septima-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    padding-bottom: 2%;
+    padding: 75px;
+  }
+  
+  .septima-card {
+    padding-bottom: 5%;
+    text-align: center;
+    width: 30%; /* Adjust the width of the cards */
+    border: 1px solid gray;
+    border-top: 120px solid rgba(73,175,188,255);
+  
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  
+  }
+  
+  .septima-card img {
+    margin-top: -10%;
+    width: 100px; /* Adjust the size of the circle image */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+  }
+  
+  .septima-card h3 {
+    margin-top: 5%;
+    font-size: 1.2em;
+  }
+  
+  .septima-card p {
+    margin-top: 15%;
+    font-size: 0.9em;
+    margin-bottom: 15%;
+  }
+  
+  
+    /* Seccion 8 */
+  
+    .octava-section {
+      position: relative;
+      text-align: center;
+    }
+    
+    .octava-background {
+      width: 100vw; /* Adjusted to use viewport width */
+      height: 600px;
+      overflow: hidden;
+    }
+    
+    .octava-background img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .octava-content {    
+      padding: 2%;
+      position: absolute;
+      top: 50%;
+      left: 65%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      width: 800px;
+      max-width: 900px; /* Adjust max-width as needed */
+      margin: auto;
+      background-color: rgba(13,28,42,255);
+      border-radius: 25px;   
+    }
+  
+    .octava-content button {
+      margin: 30px;
+      padding: 10px 100px;
+      background: rgb(77, 184, 196);
+      color: white;
+      border-radius: 25px;
+      font-size: large;
+      border: none;
+    }
+    
+    .octava-content .icon {
+      margin-right: 5px;
+    }
+  
+  
+  
+  /* Boton Scroll */
+  
+  .scroll-to-top-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: rgb(77, 184, 196);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 7;
+  }
+  
+  .scroll-to-top-button span {
+    font-size: 25px;
+  }
+  
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container-Inicio {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+  
+    .with-image-Inicio {
+      height: 80vh; /* Adjust height for small screens */
+    }
+  
+    .content-Inicio {
+      top: 40%; /* Adjust vertical position on small screens */
+      width: 100%;
+      text-align: center;
+    }
+  
+    .content-Inicio h1 {
+      font-size: 1.4em; /* Adjust font size for small screens */
+    }
+  
+    .content-Inicio p {
+      font-size: 0.9em; /* Adjust font size for small screens */
+    }
+  
+    .content-Inicio button {
+      padding: 10px 50px;
+      background: rgb(77, 184, 196);
+      color: white;
+      border-radius: 25px;
+      border: none;
+    }
+  
+    /* Seccion 2 */
+  .Segunda-section {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+  
+  .image-container {
+    width: 100%; /* Adjust width for small screens */
+  }
+  
+  
+    /* Seccion 3 */
+  .Tercera-section {
+    padding: 60px 20px; /* Adjust padding for small screens */
+  }
+  
+  .Tercera-section button {
+    margin: 5px;
+    padding: 15px 30px;
+    background: rgb(77, 184, 196);
+    color: white;
+    border-radius: 25px;
+    font-size:medium;
+    border: none;
+    cursor: pointer;
+  }
+  
+    /* Seccion 4 */
+  .cuarta-section {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+  
+  .cuarta-image,
+  .cuarta-content {
+    width: 100%; /* Adjust width for small screens */
+    margin-bottom: 20px;
+  }
+  
+  .cuarta-content ul {
+    padding-left: 20px; /* Adjust padding for small screens */
+    text-align: left;
+  }
+  
+  .cuarta-content h2 {
+    margin-left: 5%;
+    font-size: 1.5em;
+    width: 90%;  
+  }
+  
+  
+  .quinta-content {
+    margin-top: -30px;
+    position: absolute;
+    left: 50%;
+    color: #fff;
+    width: 95%;
+    background-color: rgb(37, 37, 63);
+    border-radius: 25px; 
+  }
+  
+  .quinta-content h2 {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+  
+  .quinta-content li {
+    font-size: 0.6em; /* Adjust font size for smaller screens */
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .quinta-content button {
+    padding: 8px 25px; /* Adjust padding for smaller screens */
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+  
+  .quinta-background {
+    height: auto;
+    margin-top: 5%;
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+  
+  
+  .quinta-background img {
+    width: 100%;
+    height: 350px;
+    display: block;
+  }
+  
+  
+  /* CSS for Sexta-section */
+  .sexta-section h2 {
+    font-size: 1.5em;
+  }
+  
+  .sexta-section p {
+    font-size: 1em;
+  }
+  /* Seccion 7 */
+  
+  
+  .septima-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .septima-card {
+    margin-bottom: 20px; /* Adjust the space between cards on small screens */
+  }
+  
+  
+  .septima-card {
+    margin-left: -20%;
+    padding-bottom: 5%;
+    text-align: center;
+    width: 140%; /* Adjust the width of the cards */
+    border: 1px solid gray;
+    border-top: 120px solid rgba(73,175,188,255);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  
+  }
+  
+  .septima-card img {
+    margin-top: -10%;
+    width: 100px; /* Adjust the size of the circle image */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+  }
+  
+  .septima-card h3 {
+    margin-top: 5%;
+    font-size: 1.2em;
+  }
+  
+  .septima-card p {
+    margin-top: 15%;
+    font-size: 0.9em;
+    margin-bottom: 15%;
+  }
+  
+  
+  /* Seccion 8 */
+  
+  .octava-content {
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    color: #fff;
+    width: 95%;
+    background-color: rgb(37, 37, 63);
+    border-radius: 25px; 
+  }
+  
+  .octava-content button {
+    padding: 8px 25px; /* Adjust padding for smaller screens */
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+  
+  .octava-background {
+    height: auto;
+    margin-top: 5%;
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+  
+  
+  .octava-background img {
+    width: 100%;
+    height: 550px;
+    display: block;
+  }
+  }

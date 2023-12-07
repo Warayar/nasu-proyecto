@@ -1,6 +1,6 @@
 import React from 'react';
-import './PlanesdeSalud.css';
 import InicioScroll from './InicioScroll';
+import '../estilos/PlanesdeSalud.css';
 
 const PlanesdeSalud = () => {
   document.title = "Planes Informativa";
@@ -32,7 +32,6 @@ const PlanesdeSalud = () => {
            <button style={{background: 'rgb(77, 184, 196)', padding: '10px 50px', color: 'white', borderRadius: '25px', border: 'none'}}>ESCOGER PLANES DE SALUD</button>
              </div>
           </div>       
-
 
           <div className='casilla-Planes-Left casilla-Planes'>          
           <img className='img-left' src={ require('../Imagenes/Inicio/captura2.png')} alt="" />

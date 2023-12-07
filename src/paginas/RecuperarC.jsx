@@ -1,6 +1,6 @@
 import React from 'react';
-import './RecuperarC.css';
 import InicioScroll from './InicioScroll';
+import '../estilos/RecuperarC.css';
 
 const RecuperarC = () => {
   document.title = "Recupera Contrasena";

@@ -1,7 +1,7 @@
 import React from 'react';
-import './InicioSesion.css';
 import { Link } from 'react-router-dom';
 import InicioScroll from './InicioScroll';
+import '../estilos/InicioSesion.css'; 
 
 const InicioSesion = () => {
   document.title = "Panel Login";

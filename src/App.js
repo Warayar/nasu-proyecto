@@ -11,6 +11,8 @@ import Header from './componentes/Header/Header.jsx'
 import Footer from './componentes/Footer/Footer.jsx';
 import "./App.css";
 import RecuperarC from './paginas/RecuperarC.jsx';
+import ElegirPlan from './paginas/ElegirPlan.jsx';
+import PlanFormulario from './paginas/PlanFormulario.jsx';
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <Route path='/contactenos' element={<Contactenos />} />
         <Route path='/login' element={<Login />} />
         <Route path='/recuperar' element={<RecuperarC />} />
+        <Route path='/elegir_plan' element={<ElegirPlan />} />
+        <Route path='/plan_formulario' element={<PlanFormulario />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

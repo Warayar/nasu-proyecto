@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Faqs.css';
+import '../estilos/Faqs.css';
 import { Link } from 'react-router-dom';
 import InicioScroll from './InicioScroll';
 

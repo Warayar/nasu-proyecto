@@ -1,6 +1,6 @@
 // ResponsiveForm.js
 import React, { useState } from 'react';
-import './Contactenos.css'; // Create a CSS file for styling
+import '../estilos/Contactenos.css'; // Create a CSS file for styling
 import InicioScroll from './InicioScroll';
 
 const Contactenos = () => {

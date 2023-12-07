@@ -1,0 +1,138 @@
+
+.container-Recuperar {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    background-color: rgba(19, 41, 65, 255);
+  }
+  
+  .with-image-Recuperar {
+    background: url('../Imagenes/Faqs/captura1.png') no-repeat center center / cover;
+    position: relative;
+    width: 100%; 
+    height: 90vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Titulo */
+  .content-Recuperar {
+    margin-top: -3%;
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40%;
+    background-color: rgba(30, 40, 51, 255);
+    display: grid;
+    margin-left: 13%;
+    color: white;
+    border-radius: 5px;
+    height: 40vh;
+  }
+  
+  .content-Recuperar p {
+    padding: 5px;
+    margin-top: 20%;
+    font-size: 1,4em;
+    color: white;
+  }
+  
+  .content-Recuperar input {
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 17%;
+    height: 35px;
+  }
+  
+  .content-Recuperar img {
+    position: absolute;
+    top: -85px; /* Adjust this value based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  
+  
+  .content-Recuperar .button-Recuperar {
+    background-color: rgba(33,74,128,255);
+    height: 45px;
+    width: 70%;
+    margin-left: 17%;
+    border-radius: 25px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+  }
+  
+
+  .button-Recuperar:hover {
+    background-color: rgba(230,230,230,255);
+    color: black;
+  }
+
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .container-Recuperar {
+      flex-direction: column; 
+    }
+  
+    .with-image-Recuperar {
+      height: 100vh; 
+    }
+  
+    .content-Recuperar {
+      width: 75%;
+      padding: 5%;
+    }
+  
+    .content-Recuperar input {
+      margin: auto;
+      display: block;
+      width: 90%;
+    }
+  
+    .content-Recuperar h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      margin-top: 35%;
+    }
+  
+    .content-Recuperar .button-Recuperar_sesion {
+      background-color: rgba(33,74,128,255);
+      height: 45px;
+      width: 70%;
+      margin-left: 17%;
+      border-radius: 25px;
+      color: white;
+      font-size: small;
+      font-weight: bold;
+    }
+  
+    
+    .content-Recuperar .button-Recuperar_registrar {
+      background-color: rgba(75,172,78,255);
+      height: 45px;
+      width: 70%;
+      margin-left: 17%;
+      border-radius: 25px;
+      color: white;
+      font-size: small;
+      font-weight: bold;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  

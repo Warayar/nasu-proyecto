@@ -1,5 +1,5 @@
-import './Prevencion.css';
 import InicioScroll from './InicioScroll';
+import '../estilos/Prevencion.css';
 
 const Prevencion = () => {
   document.title = "Pagina Prevencion";  

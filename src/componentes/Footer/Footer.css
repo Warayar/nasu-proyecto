@@ -51,32 +51,10 @@
     white-space: pre;
   }
 
-.sb_footer-below {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0.2rem;
-}
-
-.sb_footer-below-links {
-    display: flex;
-    flex-direction: row;
-}
-
-.sb_footer-below-links p {
-    font-size: 13px;
-    line-height: 15px;
-    margin-left: 2rem;
-    color: white;
-    font-weight: 600;
-}
-
-
-
 
 .sb_footer-copyright p {
     font-size: 15px;
-    line-height: 15px;
+    line-height: 25px;
     font-weight: 400;
 }
 
@@ -93,20 +71,6 @@
     .sb_footer-btn p {
         font-size: 14px;
         line-height: 20px;
-    }
-
-    .sb_footer_below {
-        flex-direction: column;
-        justify-content: left;
-    }
-
-    .sb_footer-below-links {
-        flex-direction: column;
-    }
-
-    .sb_footer-below-links p {
-        margin-left: 0rem;
-        margin-top: 1rem;
     }
 }
 

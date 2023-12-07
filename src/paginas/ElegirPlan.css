@@ -1,0 +1,414 @@
+
+.container-plan_planes {
+  margin: 0;
+  padding: 0;
+  background: url('../Imagenes/Faqs/captura1.png')  center/cover fixed;
+  position: relative;
+
+}
+
+
+/* Titulo */
+.content-plan_planes {
+  position: relative; /* Make the container relative for absolute positioning */
+  display: flex;
+  flex-wrap: nowrap;
+  width: 85%;
+  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+  display: grid;
+  grid-gap: 15px;
+  margin-left: 8%;
+  color: black;
+  height: 5%;
+}
+
+.content-plan_planes h3 {
+  position: relative; /* Make the container relative for absolute positioning */
+  display: flex;
+  flex-wrap: nowrap;
+  display: grid;
+  top: 25px;
+  color: white;
+}
+
+
+ /* Contenedor del entorno superior e inferior de tarjetas  */
+.ddl-plan_planes{
+  background-color: white;
+  margin-top: 2%;
+  width: 100%;
+  padding-top: 10px ;
+  margin-bottom: 50px;
+
+}
+
+
+.btn-regresar button {
+  background-color: rgba(149,149,149,255);
+color: white;
+font-weight: 800;
+border-radius: 25px;
+width: 35%;
+height: 40px;
+margin-bottom: 5%;
+border: none;
+}
+
+.btn-siguiente button {
+  background-color: rgba(33,196,70,255);
+color: white;
+font-weight: 800;
+border-radius: 25px;
+width: 35%;
+height: 40px;
+margin-bottom: 5%;
+border: none;
+margin-left: 11%;
+}
+
+
+
+.ddl-plan_planes button:hover {
+  background-color: rgba(230,230,230,255);
+  color: black;
+  border: 0.1px solid black;
+}
+
+
+.accordion-content {
+margin-left: 8px;
+}
+
+.accordion-container {
+  border: 1px solid black;
+  border-radius: 15px;  
+}
+
+
+.accordion-header {
+  margin-left: 30%;
+  color: rgba(66,139,202,255);
+  width: 50%;
+  cursor: pointer;
+  padding: 2px;
+} 
+
+.accordion-header::before {
+  content: '•'; /* Unicode for a bullet point, adjust as needed */
+  color: #333; /* Color of the bullet point */
+  font-size: 1.2em; /* Adjust the font size of the bullet point */
+  margin-right: 5px; /* Adjust the distance between the bullet point and text */
+}
+
+.accordion-content p {
+  margin-left: 31%;
+  width: 49%;
+} 
+
+
+.accordion-checkbox {
+  width: 18px;
+  height: 18px;
+  border: 20px solid red;
+  cursor: pointer;
+}
+
+.accordion-checkbox {
+  position: relative;
+  margin-right: 10px; /* Adjust the spacing between checkbox and line */
+  width: 18px;
+  height: 18px;
+  border: 2px solid #333;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.accordion-checkbox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px; /* Adjust the distance between the checkbox and the line */
+  height: 100px;
+  width: 6px; /* Width of the vertical line */
+  background-color: #333;
+}
+
+.checkbox-precio {
+  margin-left: 89%; /* Adjust the margin to move the title closer to the checkbox */
+  margin-top: -20px;
+  width: 200px;
+  font-size:x-large;
+  font-weight: 700;
+  color: rgba(0,112,192,255);
+}
+
+.checkbox-mes {
+  margin-left: 87%; /* Adjust the margin to move the title closer to the checkbox */
+  width: 200px;
+  font-size: larger;
+  font-weight: 700;
+  color: black;
+}
+
+
+.checkbox-titleB {
+  margin-left: 70px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-top: -3%;
+  width: 200px;
+  font-size: larger;
+  font-weight: 700;
+  color: rgba(165,42,42,255);
+}
+
+.checkbox-titleP {
+  margin-left: 81px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-top: -3%;
+  width: 200px;
+  font-size: larger;
+  font-weight: 700;
+  color: rgba(128,128,128,255);
+}
+
+.checkbox-titleO {
+  margin-left: 81px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-top: -3%;
+  width: 200px;
+  font-size: larger;
+  font-weight: 700;
+  color: rgba(255,165,0,255);
+}
+
+/* Define classes for different line colors */
+.line-bronce::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px; /* Adjust the distance between the checkbox and the line */
+  height: 100px;
+  width: 6px; /* /* Width of the vertical line */
+  background-color: rgba(165,42,42,255); /* Set the color for the blue line */
+}
+
+.line-plata::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px; /* Adjust the distance between the checkbox and the line */
+  height: 100px;
+  width: 6px; /* /* Width of the vertical line */
+  background-color: rgba(128,128,128,255); /* Set the color for the red line */
+}
+
+.line-oro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px; /* Adjust the distance between the checkbox and the line */
+  height: 100px;
+  width: 6px; /*  /* Width of the vertical line */
+  background-color: rgba(255,165,0,255); /* Set the color for the green line */
+}
+
+
+
+
+@media (max-width: 768px) {
+  .content-plan_planes {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    flex-wrap: nowrap;
+    width: 85%;
+    background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+    display: grid;
+    grid-gap: 15px;
+    margin-left: 8%;
+    color: black;
+    height: 5%;
+  }
+  
+  .content-plan_planes h3 {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: flex;
+    flex-wrap: nowrap;
+    display: grid;
+    top: 15px;
+    color: white;
+  }
+  
+  
+   /* Contenedor del entorno superior e inferior de tarjetas  */
+  .ddl-plan_planes{
+    background-color: white;
+    margin-top: 2%;
+    width: 100%;
+    padding-top: 10px ;
+    margin-bottom: 50px;
+  
+  }
+  
+  
+  .btn-regresar button {
+    background-color: rgba(149,149,149,255);
+  color: white;
+  font-weight: 800;
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 5%;
+  border: none;
+  }
+  
+  .btn-siguiente button {
+    background-color: rgba(33,196,70,255);
+  color: white;
+  font-weight: 800;
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 5%;
+  border: none;
+  margin-left: 1%;
+  }
+  
+  
+  
+  .ddl-plan_planes button:hover {
+    background-color: rgba(230,230,230,255);
+    color: black;
+    border: 0.1px solid black;
+  }
+  
+  
+  .accordion-content {
+  margin-left: 8px;
+  }
+  
+  .accordion-container {
+    border: 1px solid black;
+    border-radius: 15px;  
+  }
+  
+  /* Letras de la lista */
+  .accordion-header {
+    margin-left: 5%;
+    color: rgba(66,139,202,255);
+    width: 85%;
+    cursor: pointer;
+    padding: 2px;
+  } 
+  
+    /* Punto para la lista */
+  .accordion-header::before {
+    content: '•'; /* Unicode for a bullet point, adjust as needed */
+    color: #333; /* Color of the bullet point */
+    font-size: 1.2em; /* Adjust the font size of the bullet point */
+    margin-right: 5px; /* Adjust the distance between the bullet point and text */
+  }
+  
+    /* Contenido dentro de la lista */
+  .accordion-content p {
+    margin-left: 6%;
+    width: 90%;
+  } 
+  
+
+  .accordion-checkbox {
+    position: relative;
+    margin-right: 10px; /* Adjust the spacing between checkbox and line */
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .accordion-checkbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -45px; /* Adjust the distance between the checkbox and the line */
+    height: 100px;
+    width: 6px; /* Width of the vertical line */
+    background-color: #333;
+  }
+  
+    /* Precio*/
+  .checkbox-precio { /* Adjust the margin to move the title closer to the checkbox */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    width: 200px;
+    font-size:x-large;
+    font-weight: 700;
+    color: rgba(0,112,192,255);
+  }
+  
+    /* Total por mes */
+  .checkbox-mes {
+    margin-left: 87%; /* Adjust the margin to move the title closer to the checkbox */
+    margin-bottom: 10px;
+    margin-left: 80px;
+    width: 200px;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+  }
+  
+  
+  .checkbox-titleB {
+    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-top: -3%;
+    width: 200px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgba(165,42,42,255);
+  }
+  
+  .checkbox-titleP {
+    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-top: -3%;
+    width: 200px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgba(128,128,128,255);
+  }
+  
+  .checkbox-titleO {
+    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-top: -3%;
+    width: 200px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgba(255,165,0,255);
+  }
+  
+  /* Define classes for different line colors */
+  .line-bronce::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25px; /* Adjust the distance between the checkbox and the line */
+    height: 100px;
+    width: 6px; /* /* Width of the vertical line */
+    background-color: rgba(165,42,42,255); /* Set the color for the blue line */
+  }
+  
+  .line-plata::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25px; /* Adjust the distance between the checkbox and the line */
+    height: 100px;
+    width: 6px; /* /* Width of the vertical line */
+    background-color: rgba(128,128,128,255); /* Set the color for the red line */
+  }
+  
+  .line-oro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -25px; /* Adjust the distance between the checkbox and the line */
+    height: 100px;
+    width: 6px; /*  /* Width of the vertical line */
+    background-color: rgba(255,165,0,255); /* Set the color for the green line */
+  }
+}

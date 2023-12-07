@@ -1,0 +1,200 @@
+
+.container-Planes {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  background-color: rgba(19,41,65,255);
+
+}
+
+.with-image-Planes {
+  background: url('../Imagenes/Faqs/captura1.png') no-repeat center center / cover;
+  position: relative;
+  width: 100%; 
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* Titulo */
+.content-Planes {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+  width: 70%;
+}
+
+.content-Planes h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.content-Planes p {
+  font-size: 1.2em;
+  
+}
+
+
+.contenedor-Planes {
+margin-left: 5%;
+margin-right: 5%;
+  background-color: rgba(255, 255, 255, 0.979);
+  text-align: left;    
+ padding: 3%;
+}
+
+
+.contenedor-Planes h1 { 
+padding: 1%;
+}
+
+h1 .h1color{
+  color:rgba(75,172,78,255);
+}
+
+.contenedor-Planes p { 
+  padding: 1%;
+  font-family: system-ui;
+    }
+
+.casilla-Planes {
+border: 1px solid;
+border-color: lightgray;
+display: flex;
+ flex-Direction: row;
+ margin-bottom: 5%;
+}
+
+.casilla-Planes img {
+height: 55vh;
+width: 50%;
+}
+
+.casilla-Planes h1 {
+padding: 4%;
+}
+
+.casilla-Planes p {
+padding: 5%;
+
+}
+
+
+.button-container-Planes-Left button {
+  padding: 10px 50px;
+  background: rgb(77, 184, 196);
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+
+
+.casilla-Planes-Left {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row; /* Items will be in a row */
+  justify-content: space-between; /* Space items evenly along the main axis */
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 5%;
+}
+
+.casilla-Planes-Left {
+  flex: 1; /* Take up available space */
+}
+
+.casilla-Planes-Left .button-container-Planes-Left {
+  margin-left: 10px; /* Adjust margin for spacing between text and button */
+}
+
+.casilla-Planes-Left .image-container-Planes-Left {
+  flex-shrink: 0; /* Don't shrink the image */
+}
+
+.casilla-Planes-Left img {
+  height: 55vh;
+  width: 100%;/* Maintain aspect ratio */
+}
+
+.img-left {
+  display: none; /* Show the image by default */
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container-Planes {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .with-image-Planes {
+    height: 80vh; /* Adjust height for small screens */
+  }
+
+  .content-Planes {
+    top: 50%; /* Adjust vertical position on small screens */
+    transform: translate(-55%, -50%);
+    width: 80%;
+  }
+
+  .content-Planes h1 {
+    font-size: 1.6em; /* Adjust font size for small screens */
+  }
+  width
+
+  .content-Planes p {
+    font-size: 1em; /* Adjust font size for small screens */
+  }
+
+  .casilla-Planes {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 5%;
+  }
+  
+  .casilla-Planes img {
+    width: 100%; /* Make the image cover the width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .casilla-Planes .text-container {
+    padding: 2%; /* Adjust padding for better spacing */
+  }
+  
+  .casilla-Planes h1 {
+    padding-bottom: 1%; /* Adjust spacing between title and text */
+  }
+  
+  .casilla-Planes p {
+    padding-top: 1%; /* Adjust spacing between title and text */
+  }
+
+  .img-left {
+    display: block; /* Hide the image when the screen is less than or equal to 768 pixels wide */
+  }
+
+  .img-gone {
+    display: none; /* Hide the image when the screen is less than or equal to 768 pixels wide */
+  }
+
+  .button-container-Planes-Left button {
+    width: 100%;
+    padding: 10px 40px;
+    background: rgb(77, 184, 196);
+    color: white;
+    border-radius: 25px;
+    border: none;
+  }
+
+}
+
+
+
+
+

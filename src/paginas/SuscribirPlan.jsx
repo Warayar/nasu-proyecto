@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './SuscribirPlan.css';
-import { FaCalendarAlt } from 'react-icons/fa';
 import InicioScroll from './InicioScroll';
+import { NavLink } from 'react-router-dom';
+import '../estilos/SuscribirPlan.css'; 
 
 const SuscribirPlan = () => {
     document.title = "Plan Registro";
@@ -61,7 +61,7 @@ const SuscribirPlan = () => {
     </select>
   </div>
       <div className="pet-Suscribir">{renderPetCards()}</div>
-      <button>Siguiente</button>
+      <NavLink to='/elegir_plan'><button>Siguiente</button></NavLink>
     </div>
     </div>
     </div>

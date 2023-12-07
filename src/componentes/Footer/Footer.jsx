@@ -1,13 +1,8 @@
 import React from 'react'
 import './Footer.css';
-import { IoColorFill } from 'react-icons/io5';
 import { FaDollarSign } from 'react-icons/fa';
 import { FaLock } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
-//import fb from '../assets/fbimg.png';
-//import twitter from '../assets/twitterimg.png';
-//import linkedin from '../assets/linkedinimg.png';
-//import insta from '../assets/instaimg.png';
 
 
 const Footer = () => {
@@ -22,19 +17,19 @@ const Footer = () => {
             <p>Aceptamos todas las tarjetas de crédito</p>
             </div>
 
-            <div className='sb_footer-links_divr'>
-            <FaLock className='fa' style={{fontSize: '50px', color: 'white', margin: '10px'}}/>
-            <h4>SEGURIDAD CON BAC CREDOMATIC</h4>
-            <p>Nuestra plataforma de pago cuenta con el respaldo de Credomatic.</p>
-            </div>
-
-            </div>
-
             <div className='sb_footer-copyright'>            
             <p >Políticas y privacidad  | Términos y condiciones</p>
             <FaFacebookSquare style={{color: 'white',fontSize: '30px', margin: '10px'}}/>
             <p > Derechos reservados &copy; {new Date().getFullYear()} NASU</p>
             </div>
+
+            <div className='sb_footer-links_divr'>
+            <FaLock className='fa' style={{fontSize: '50px', color: 'white', margin: '10px'}}/>
+            <h4>SEGURIDAD CON BAC CREDOMATIC</h4>
+            <p>Nuestra plataforma de pago cuenta con el respaldo de Credomatic.</p>
+            </div>
+            </div>
+
             </div>
             </div>
             

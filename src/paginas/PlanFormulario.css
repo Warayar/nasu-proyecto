@@ -1,0 +1,223 @@
+
+.container-plan_formulario {
+  margin: 0;
+  padding: 0;
+  background: url('../Imagenes/Faqs/captura1.png')  center/cover fixed;
+  position: relative;
+}
+
+
+/* Titulo */
+.content-plan_formulario {
+  position: relative; /* Make the container relative for absolute positioning */
+  display: flex;
+  flex-wrap: nowrap;
+  width: 66%;
+  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+  display: grid;
+  grid-gap: 15px;
+  margin-left: 34%; /* Increase this value to move it to the right */
+  color: black;
+  height: 5%;
+}
+
+.content-plan_formulario h3 {
+  position: relative; /* Make the container relative for absolute positioning */
+  display: flex;
+  flex-wrap: nowrap;
+  display: grid;
+  top: 25px;
+  color: white;
+}
+
+
+ /* Contenedor del entorno superior e inferior de tarjetas  */
+.ddl-plan_formulario{
+  background-color: white;
+  margin-top: 2%;
+  width: 100%;
+  padding-top: 10px ;
+  margin-bottom: 50px;
+
+}
+
+
+.content-formulario {
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+
+
+
+
+/* formulario */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgba(140,140,140,255);
+  }
+
+/* Additional styles for the label below the input */
+.form-group label:last-child {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: red;
+    margin-left: 1%;
+  }
+
+  input {
+    width: 100%; /* Ensure inputs take full width of their container */
+    height: 30px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Add other styling as needed */
+  }
+
+
+
+
+
+
+
+
+
+.btn-regresarfrm button {
+  background-color: rgba(149,149,149,255);
+color: white;
+font-weight: 800;
+border-radius: 25px;
+width: 35%;
+height: 40px;
+margin-bottom: 5%;
+border: none;
+}
+
+.btn-siguientefrm button {
+  background-color: rgba(33,196,70,255);
+color: white;
+font-weight: 800;
+border-radius: 25px;
+width: 35%;
+height: 40px;
+margin-bottom: 5%;
+border: none;
+margin-left: 11%;
+}
+
+
+
+.ddl-plan_formulario button:hover {
+  background-color: rgba(230,230,230,255);
+  color: black;
+  border: 0.1px solid black;
+}
+
+
+
+@media (max-width: 768px) {
+
+      
+      
+      /* Titulo */
+      .content-plan_formulario {
+        position: relative; /* Make the container relative for absolute positioning */
+        display: flex;
+        flex-wrap: nowrap;
+        width: 91%;
+        background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+        display: grid;
+        grid-gap: 15px;
+        margin-left: 5%; /* Increase this value to move it to the right */
+        color: black;
+        height: 5%;
+      }
+
+      .content-plan_formulario h3 {
+        position: relative; /* Make the container relative for absolute positioning */
+        display: flex;
+        flex-wrap: nowrap;
+        display: grid;
+        top: 13px;
+        color: white;
+      }
+
+
+
+  
+  .btn-regresar button {
+    background-color: rgba(149,149,149,255);
+  color: white;
+  font-weight: 800;
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 5%;
+  border: none;
+  }
+  
+  .btn-siguiente button {
+    background-color: rgba(33,196,70,255);
+  color: white;
+  font-weight: 800;
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 5%;
+  border: none;
+  margin-left: 1%;
+  }
+  
+  
+  
+  .ddl-plan_planes button:hover {
+    background-color: rgba(230,230,230,255);
+    color: black;
+    border: 0.1px solid black;
+  }
+
+  .form-row.responsive .form-group {
+    width: 100%; /* Make each form-group take full width in the column layout */
+    margin-right: 0; /* Remove right margin to prevent unnecessary spacing */
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Add other styling as needed */
+  }
+
+
+
+
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Inicio.css';
 import { NavLink } from 'react-router-dom';
 import { IoPawOutline } from 'react-icons/io5'; // Import icons as needed
 import InicioScroll from './InicioScroll';
+import '../estilos/Inicio.css';
 
 const QueEsNasu = () => {
     document.title = "Inicio";
