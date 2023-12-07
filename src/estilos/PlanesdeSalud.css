@@ -1,4 +1,3 @@
-
 .container-Planes {
   display: flex;
   flex-wrap: wrap; 
@@ -98,89 +97,88 @@ padding: 5%;
 .casilla-Planes-Left {
   border: 1px solid lightgray;
   display: flex;
-  flex-direction: row; /* Items will be in a row */
-  justify-content: space-between; /* Space items evenly along the main axis */
-  align-items: center; /* Align items vertically in the center */
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
   margin-bottom: 5%;
 }
 
 .casilla-Planes-Left {
-  flex: 1; /* Take up available space */
+  flex: 1; 
 }
 
 .casilla-Planes-Left .button-container-Planes-Left {
-  margin-left: 10px; /* Adjust margin for spacing between text and button */
+  margin-left: 10px;
 }
 
 .casilla-Planes-Left .image-container-Planes-Left {
-  flex-shrink: 0; /* Don't shrink the image */
+  flex-shrink: 0;
 }
 
 .casilla-Planes-Left img {
   height: 55vh;
-  width: 100%;/* Maintain aspect ratio */
+  width: 100%;
 }
 
 .img-left {
-  display: none; /* Show the image by default */
+  display: none; 
 }
 
 
-/* Responsive styles */
 @media screen and (max-width: 768px) {
   .container-Planes {
-    flex-direction: column; /* Stack items vertically on small screens */
+    flex-direction: column; 
   }
 
   .with-image-Planes {
-    height: 80vh; /* Adjust height for small screens */
+    height: 80vh; 
   }
 
   .content-Planes {
-    top: 50%; /* Adjust vertical position on small screens */
+    top: 50%; 
     transform: translate(-55%, -50%);
     width: 80%;
   }
 
   .content-Planes h1 {
-    font-size: 1.6em; /* Adjust font size for small screens */
+    font-size: 1.6em; 
   }
   width
 
   .content-Planes p {
-    font-size: 1em; /* Adjust font size for small screens */
+    font-size: 1em; 
   }
 
   .casilla-Planes {
     border: 1px solid lightgray;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
     margin-bottom: 5%;
   }
   
   .casilla-Planes img {
-    width: 100%; /* Make the image cover the width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
   
   .casilla-Planes .text-container {
-    padding: 2%; /* Adjust padding for better spacing */
+    padding: 2%; 
   }
   
   .casilla-Planes h1 {
-    padding-bottom: 1%; /* Adjust spacing between title and text */
+    padding-bottom: 1%; 
   }
   
   .casilla-Planes p {
-    padding-top: 1%; /* Adjust spacing between title and text */
+    padding-top: 1%; 
   }
 
   .img-left {
-    display: block; /* Hide the image when the screen is less than or equal to 768 pixels wide */
+    display: block; 
   }
 
   .img-gone {
-    display: none; /* Hide the image when the screen is less than or equal to 768 pixels wide */
+    display: none; 
   }
 
   .button-container-Planes-Left button {

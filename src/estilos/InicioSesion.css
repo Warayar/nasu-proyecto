@@ -18,7 +18,7 @@
 /* Titulo */
 .content-Login {
   margin-top: 3%;
-  position: relative; /* Make the container relative for absolute positioning */
+  position: relative; 
   display: flex;
   flex-wrap: nowrap;
   width: 42%;
@@ -48,7 +48,7 @@
 
 .content-Login img {
   position: absolute;
-  top: -85px; /* Adjust this value based on your design */
+  top: -85px; 
   left: 50%;
   transform: translateX(-50%);
   width: 150px;

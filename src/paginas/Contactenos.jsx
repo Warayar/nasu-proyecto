@@ -1,17 +1,16 @@
-// ResponsiveForm.js
 import React, { useState } from 'react';
-import '../estilos/Contactenos.css'; // Create a CSS file for styling
+import '../estilos/Contactenos.css';
 import InicioScroll from './InicioScroll';
 
 const Contactenos = () => {
     document.title = "Contacto";
   const [formData, setFormData] = useState({
-    fullName: '',
+    nombre: '',
     email: '',
-    phone: '',
-    petName: '',
-    about: '',
-    message: '',
+    telefono: '',
+    nombreMascota: '',
+    asunto: '',
+    mensaje: '',
   });
 
   const handleChange = (e) => {
@@ -21,7 +20,6 @@ const Contactenos = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Form submitted:', formData);
     
   };
@@ -42,12 +40,12 @@ const Contactenos = () => {
           <h1>Envíenos tu consulta</h1>
           <p>Podés llamarnos al Tel. 4001-7814 o escribirnos al Whatsapp 4001-7814</p>
           
-            <label htmlFor="fullName">Nombre Completo</label>
+            <label htmlFor="nombre">Nombre Completo</label>
             <input
               type="text"
-              id="fullName"
-              name="fullName"
-              value={formData.fullName}
+              id="nombre"
+              name="nombre"
+              value={formData.nombre}
               onChange={handleChange}
             />
     
@@ -60,37 +58,37 @@ const Contactenos = () => {
               onChange={handleChange}
             />
     
-            <label htmlFor="phone">Teléfono</label>
+            <label htmlFor="telefono">Teléfono</label>
             <input
               type="tel"
-              id="phone"
-              name="phone"
-              value={formData.phone}
+              id="telefono"
+              name="telefono"
+              value={formData.telefono}
               onChange={handleChange}
             />
     
-            <label htmlFor="petName">Nombre de la mascota</label>
+            <label htmlFor="nombreMascota">Nombre de la mascota</label>
             <input
               type="text"
-              id="petName"
-              name="petName"
-              value={formData.petName}
+              id="nombreMascota"
+              name="nombreMascota"
+              value={formData.nombreMascota}
               onChange={handleChange}
             />
     
-            <label htmlFor="about">Asunto</label>
+            <label htmlFor="asunto">Asunto</label>
             <textarea
-              id="about"
-              name="about"
-              value={formData.about}
+              id="asunto"
+              name="asunto"
+              value={formData.asunto}
               onChange={handleChange}
             ></textarea>
     
-            <label htmlFor="message">Mensaje</label>
+            <label htmlFor="mensaje">Mensaje</label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="mensaje"
+              name="mensaje"
+              value={formData.mensaje}
               onChange={handleChange}
             ></textarea>        
             <button className='button-Contactenos' type="submit">Enviar Mensaje</button>

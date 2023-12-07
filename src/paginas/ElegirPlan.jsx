@@ -103,10 +103,6 @@ const SuscribirPlan = () => {
               </div>
             </div>
 
-
-
-
-
             <div className="select-container-plan_planes">
             <div className="accordion-container">
             <div className="accordion-checkbox-container">

@@ -1,7 +1,7 @@
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+    flex-wrap: wrap; 
     justify-content: space-around;
     background-color: rgba(19,41,65,255);
   }
@@ -9,8 +9,8 @@
   .with-image {
     background: url('../Imagenes/Faqs/captura1.png') no-repeat center center / cover;
     position: relative;
-    width: 100%; /* Use 100% width for responsiveness */
-    height: 50vh; /* Adjust height as needed */
+    width: 100%;
+    height: 50vh; 
     display: flex;
     align-items: center;
   }
@@ -68,7 +68,7 @@
     margin-left: 20px;
     border-radius: 4px;
     transition: border 0.3s;
-    margin-top: 10px; /* Add margin to separate answers */
+    margin-top: 10px; 
     margin: 1%;
     
   }
@@ -83,31 +83,26 @@
     padding: 1%;
   }
   
-
-
-
-  
-  /* Responsive styles */
   @media screen and (max-width: 768px) {
     .container {
-      flex-direction: column; /* Stack items vertically on small screens */
+      flex-direction: column;
     }
   
     .with-image {
-      height: 80vh; /* Adjust height for small screens */
+      height: 80vh;
     }
   
     .content {
-      top: 50%; /* Adjust vertical position on small screens */
+      top: 50%; 
       transform: translate(-55%, -50%);
       width: 80%;
     }
   
     .content h1 {
-      font-size: 1.6em; /* Adjust font size for small screens */
+      font-size: 1.6em;
     }
   
     .content p {
-      font-size: 1em; /* Adjust font size for small screens */
+      font-size: 1em; 
     }
   }

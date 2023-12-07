@@ -106,7 +106,6 @@ const SuscribirPlan = () => {
       <input type="text" />
     </div>
   </div>
-  {/* Repeat the structure for the eighth line */}
   <div className="form-row">
   <div className="form-group">
     <label>Correo Electrónico Facturación</label>

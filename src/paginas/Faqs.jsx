@@ -37,7 +37,6 @@ const Faqs = () => {
             ],
           },
         ],
-        // Add more answers as needed
     },
 {
         question: 'CLÍNICAS VETERINARIAS',
@@ -122,7 +121,7 @@ const Faqs = () => {
           },
       ],
     },
-    // Add more items as needed
+    // Si se necesitan mas se pueden agregar aqui
   ];
 
   const handleClick = (questionIndex, answerIndex) => {

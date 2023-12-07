@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Inicio.css';
+import '../estilos/Inicio.css';
 
 const InicioScroll = () => {
   const [isVisible, setIsVisible] = useState(false);

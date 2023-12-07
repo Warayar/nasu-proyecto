@@ -10,11 +10,11 @@
 
 /* Titulo */
 .content-plan_planes {
-  position: relative; /* Make the container relative for absolute positioning */
+  position: relative; 
   display: flex;
   flex-wrap: nowrap;
   width: 85%;
-  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); 
   display: grid;
   grid-gap: 15px;
   margin-left: 8%;
@@ -23,7 +23,7 @@
 }
 
 .content-plan_planes h3 {
-  position: relative; /* Make the container relative for absolute positioning */
+  position: relative; 
   display: flex;
   flex-wrap: nowrap;
   display: grid;
@@ -94,10 +94,10 @@ margin-left: 8px;
 } 
 
 .accordion-header::before {
-  content: '•'; /* Unicode for a bullet point, adjust as needed */
-  color: #333; /* Color of the bullet point */
-  font-size: 1.2em; /* Adjust the font size of the bullet point */
-  margin-right: 5px; /* Adjust the distance between the bullet point and text */
+  content: '•'; 
+  color: #333; 
+  font-size: 1.2em; 
+  margin-right: 5px; 
 }
 
 .accordion-content p {
@@ -115,7 +115,7 @@ margin-left: 8px;
 
 .accordion-checkbox {
   position: relative;
-  margin-right: 10px; /* Adjust the spacing between checkbox and line */
+  margin-right: 10px; 
   width: 18px;
   height: 18px;
   border: 2px solid #333;
@@ -127,14 +127,14 @@ margin-left: 8px;
   content: '';
   position: absolute;
   top: 0;
-  right: -45px; /* Adjust the distance between the checkbox and the line */
+  right: -45px; 
   height: 100px;
-  width: 6px; /* Width of the vertical line */
+  width: 6px; 
   background-color: #333;
 }
 
 .checkbox-precio {
-  margin-left: 89%; /* Adjust the margin to move the title closer to the checkbox */
+  margin-left: 89%; 
   margin-top: -20px;
   width: 200px;
   font-size:x-large;
@@ -143,7 +143,7 @@ margin-left: 8px;
 }
 
 .checkbox-mes {
-  margin-left: 87%; /* Adjust the margin to move the title closer to the checkbox */
+  margin-left: 87%;
   width: 200px;
   font-size: larger;
   font-weight: 700;
@@ -152,7 +152,7 @@ margin-left: 8px;
 
 
 .checkbox-titleB {
-  margin-left: 70px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-left: 70px; 
   margin-top: -3%;
   width: 200px;
   font-size: larger;
@@ -161,7 +161,7 @@ margin-left: 8px;
 }
 
 .checkbox-titleP {
-  margin-left: 81px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-left: 81px; 
   margin-top: -3%;
   width: 200px;
   font-size: larger;
@@ -170,7 +170,7 @@ margin-left: 8px;
 }
 
 .checkbox-titleO {
-  margin-left: 81px; /* Adjust the margin to move the title closer to the checkbox */
+  margin-left: 81px; 
   margin-top: -3%;
   width: 200px;
   font-size: larger;
@@ -178,35 +178,35 @@ margin-left: 8px;
   color: rgba(255,165,0,255);
 }
 
-/* Define classes for different line colors */
+/* Marca las lineas de loco colores del plan */
 .line-bronce::before {
   content: '';
   position: absolute;
   top: 0;
-  right: -45px; /* Adjust the distance between the checkbox and the line */
+  right: -45px; 
   height: 100px;
-  width: 6px; /* /* Width of the vertical line */
-  background-color: rgba(165,42,42,255); /* Set the color for the blue line */
+  width: 6px; 
+  background-color: rgba(165,42,42,255);
 }
 
 .line-plata::before {
   content: '';
   position: absolute;
   top: 0;
-  right: -45px; /* Adjust the distance between the checkbox and the line */
+  right: -45px; 
   height: 100px;
-  width: 6px; /* /* Width of the vertical line */
-  background-color: rgba(128,128,128,255); /* Set the color for the red line */
+  width: 6px; 
+  background-color: rgba(128,128,128,255); 
 }
 
 .line-oro::before {
   content: '';
   position: absolute;
   top: 0;
-  right: -45px; /* Adjust the distance between the checkbox and the line */
+  right: -45px;
   height: 100px;
-  width: 6px; /*  /* Width of the vertical line */
-  background-color: rgba(255,165,0,255); /* Set the color for the green line */
+  width: 6px; 
+  background-color: rgba(255,165,0,255); 
 }
 
 
@@ -214,11 +214,11 @@ margin-left: 8px;
 
 @media (max-width: 768px) {
   .content-plan_planes {
-    position: relative; /* Make the container relative for absolute positioning */
+    position: relative; 
     display: flex;
     flex-wrap: nowrap;
     width: 85%;
-    background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+    background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); 
     display: grid;
     grid-gap: 15px;
     margin-left: 8%;
@@ -227,7 +227,7 @@ margin-left: 8px;
   }
   
   .content-plan_planes h3 {
-    position: relative; /* Make the container relative for absolute positioning */
+    position: relative; 
     display: flex;
     flex-wrap: nowrap;
     display: grid;
@@ -299,10 +299,10 @@ margin-left: 8px;
   
     /* Punto para la lista */
   .accordion-header::before {
-    content: '•'; /* Unicode for a bullet point, adjust as needed */
-    color: #333; /* Color of the bullet point */
-    font-size: 1.2em; /* Adjust the font size of the bullet point */
-    margin-right: 5px; /* Adjust the distance between the bullet point and text */
+    content: '•'; 
+    color: #333; 
+    font-size: 1.2em; 
+    margin-right: 5px;
   }
   
     /* Contenido dentro de la lista */
@@ -314,7 +314,7 @@ margin-left: 8px;
 
   .accordion-checkbox {
     position: relative;
-    margin-right: 10px; /* Adjust the spacing between checkbox and line */
+    margin-right: 10px; 
     width: 18px;
     height: 18px;
     border-radius: 3px;
@@ -325,14 +325,14 @@ margin-left: 8px;
     content: '';
     position: absolute;
     top: 0;
-    right: -45px; /* Adjust the distance between the checkbox and the line */
+    right: -45px; 
     height: 100px;
-    width: 6px; /* Width of the vertical line */
+    width: 6px; 
     background-color: #333;
   }
   
     /* Precio*/
-  .checkbox-precio { /* Adjust the margin to move the title closer to the checkbox */
+  .checkbox-precio { 
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 90px;
@@ -344,7 +344,7 @@ margin-left: 8px;
   
     /* Total por mes */
   .checkbox-mes {
-    margin-left: 87%; /* Adjust the margin to move the title closer to the checkbox */
+    margin-left: 87%; 
     margin-bottom: 10px;
     margin-left: 80px;
     width: 200px;
@@ -355,7 +355,7 @@ margin-left: 8px;
   
   
   .checkbox-titleB {
-    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-left: 50px; 
     margin-top: -3%;
     width: 200px;
     font-size: larger;
@@ -364,7 +364,7 @@ margin-left: 8px;
   }
   
   .checkbox-titleP {
-    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-left: 50px; 
     margin-top: -3%;
     width: 200px;
     font-size: larger;
@@ -373,7 +373,7 @@ margin-left: 8px;
   }
   
   .checkbox-titleO {
-    margin-left: 50px; /* Adjust the margin to move the title closer to the checkbox */
+    margin-left: 50px; 
     margin-top: -3%;
     width: 200px;
     font-size: larger;
@@ -381,34 +381,34 @@ margin-left: 8px;
     color: rgba(255,165,0,255);
   }
   
-  /* Define classes for different line colors */
+
   .line-bronce::before {
     content: '';
     position: absolute;
     top: 0;
-    right: -25px; /* Adjust the distance between the checkbox and the line */
+    right: -25px; 
     height: 100px;
-    width: 6px; /* /* Width of the vertical line */
-    background-color: rgba(165,42,42,255); /* Set the color for the blue line */
+    width: 6px; 
+    background-color: rgba(165,42,42,255);
   }
   
   .line-plata::before {
     content: '';
     position: absolute;
     top: 0;
-    right: -25px; /* Adjust the distance between the checkbox and the line */
+    right: -25px; 
     height: 100px;
-    width: 6px; /* /* Width of the vertical line */
-    background-color: rgba(128,128,128,255); /* Set the color for the red line */
+    width: 6px; 
+    background-color: rgba(128,128,128,255); 
   }
   
   .line-oro::before {
     content: '';
     position: absolute;
     top: 0;
-    right: -25px; /* Adjust the distance between the checkbox and the line */
+    right: -25px;
     height: 100px;
-    width: 6px; /*  /* Width of the vertical line */
-    background-color: rgba(255,165,0,255); /* Set the color for the green line */
+    width: 6px; 
+    background-color: rgba(255,165,0,255); 
   }
 }

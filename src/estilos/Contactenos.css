@@ -56,9 +56,9 @@ margin-bottom: 3%;
 
 .casilla-Contactenos-Left {
   display: flex;
-  flex-direction: row; /* Items will be in a row */
-  justify-content: space-between; /* Space items evenly along the main axis */
-  align-items: center; /* Align items vertically in the center */
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .image-form {
@@ -130,53 +130,52 @@ margin-bottom: 3%;
 }
 
 
-/* Responsive styles */
 @media screen and (max-width: 768px) {
   .container-Contactenos {
-    flex-direction: column; /* Stack items vertically on small screens */
+    flex-direction: column; 
   }
 
   .with-image-Contactenos {
-    height: 80vh; /* Adjust height for small screens */
+    height: 80vh; 
   }
 
   .content-Contactenos {
-    top: 50%; /* Adjust vertical position on small screens */
+    top: 50%; 
     transform: translate(-55%, -50%);
     width: 80%;
   }
 
   .content-Contactenos h1 {
-    font-size: 1.6em; /* Adjust font size for small screens */
+    font-size: 1.6em; 
   }
   width
 
   .content-Contactenos p {
-    font-size: 1em; /* Adjust font size for small screens */
+    font-size: 1em; 
   }
 
   .casilla-Contactenos {
     border: 1px solid lightgray;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
     margin-bottom: 5%;
   }
   
   .casilla-Contactenos img {
-    width: 100%; /* Make the image cover the width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
   
   .casilla-Contactenos .text-container {
-    padding: 2%; /* Adjust padding for better spacing */
+    padding: 2%; 
   }
 
   .form label {
-    width: 100%; /* Adjust font size for small screens */
+    width: 100%; 
  }
   
 .form h1 {
-   font-size: 1.8em; /* Adjust font size for small screens */
+   font-size: 1.8em;
 }
 
 .form button {

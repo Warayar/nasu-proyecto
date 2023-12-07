@@ -1,4 +1,3 @@
-
 .container-Que_es_Nasu {
     display: flex;
     flex-wrap: wrap; 
@@ -39,7 +38,6 @@
     
   }
 
-
 .contenedor-Que_es_Nasu {
   margin-left: 5%;
   margin-right: 5%;
@@ -47,7 +45,6 @@
     text-align: left;    
    padding: 3%;
   }
-
 
   .contenedor-Que_es_Nasu h1 { 
 padding: 1%;
@@ -61,8 +58,6 @@ h1 .h1color{
     padding: 1%;
     font-family: system-ui;
       }
-
-
 
 .casilla-Que_es_Nasu {
   border: 1px solid;
@@ -86,59 +81,50 @@ padding: 4%;
   
 }
 
-  
-  /* Responsive styles */
   @media screen and (max-width: 768px) {
     .container-Que_es_Nasu {
-      flex-direction: column; /* Stack items vertically on small screens */
+      flex-direction: column; 
     }
   
     .with-image-Que_es_Nasu {
-      height: 80vh; /* Adjust height for small screens */
+      height: 80vh; 
     }
   
     .content-Que_es_Nasu {
-      top: 50%; /* Adjust vertical position on small screens */
+      top: 50%; 
       transform: translate(-55%, -50%);
       width: 80%;
     }
   
     .content-Que_es_Nasu h1 {
-      font-size: 1.6em; /* Adjust font size for small screens */
+      font-size: 1.6em; 
     }
   
     .content-Que_es_Nasu p {
-      font-size: 1em; /* Adjust font size for small screens */
+      font-size: 1em; 
     }
 
     .casilla-Que_es_Nasu {
       border: 1px solid lightgray;
       display: flex;
-      flex-direction: column; /* Stack items vertically */
+      flex-direction: column; 
       margin-bottom: 5%;
     }
     
     .casilla-Que_es_Nasu img {
-      width: 100%; /* Make the image cover the width */
-      height: auto; /* Maintain aspect ratio */
+      width: 100%; 
+      height: auto; 
     }
     
     .casilla-Que_es_Nasu .text-container {
-      padding: 2%; /* Adjust padding for better spacing */
+      padding: 2%; 
     }
     
     .casilla-Que_es_Nasu h1 {
-      padding-bottom: 1%; /* Adjust spacing between title and text */
+      padding-bottom: 1%; 
     }
     
     .casilla-Que_es_Nasu p {
-      padding-top: 1%; /* Adjust spacing between title and text */
+      padding-top: 1%;
     }
-    
-
-
-
-
-    
-
   }

@@ -1,4 +1,3 @@
-
 .container-Prevencion {
     display: flex;
     flex-wrap: wrap; 
@@ -66,33 +65,27 @@ padding: 1%;
     padding: 10px;
   }
 
-
-
-
-  
-  /* Responsive styles */
   @media screen and (max-width: 768px) {
     .container-Prevencion {
-      flex-direction: column; /* Stack items vertically on small screens */
+      flex-direction: column; 
     }
   
     .with-image-Prevencion {
-      height: 80vh; /* Adjust height for small screens */
+      height: 80vh; 
     }
   
     .content-Prevencion {
-      top: 50%; /* Adjust vertical position on small screens */
+      top: 50%; 
       transform: translate(-55%, -50%);
       width: 80%;
     }
   
     .content-Prevencion h1 {
-      font-size: 1.6em; /* Adjust font size for small screens */
+      font-size: 1.6em; 
     }
-    width
   
     .content-Prevencion p {
-      font-size: 1em; /* Adjust font size for small screens */
+      font-size: 1em; 
     }
 
 

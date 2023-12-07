@@ -1,4 +1,3 @@
-
 .container-plan_formulario {
   margin: 0;
   padding: 0;
@@ -9,20 +8,20 @@
 
 /* Titulo */
 .content-plan_formulario {
-  position: relative; /* Make the container relative for absolute positioning */
+  position: relative;
   display: flex;
   flex-wrap: nowrap;
   width: 66%;
-  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+  background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); 
   display: grid;
   grid-gap: 15px;
-  margin-left: 34%; /* Increase this value to move it to the right */
+  margin-left: 34%; 
   color: black;
   height: 5%;
 }
 
 .content-plan_formulario h3 {
-  position: relative; /* Make the container relative for absolute positioning */
+  position: relative; 
   display: flex;
   flex-wrap: nowrap;
   display: grid;
@@ -48,10 +47,6 @@
     margin-right: 7%;
   }
 
-
-
-
-
 /* formulario */
 .form-row {
     display: flex;
@@ -62,7 +57,7 @@
     flex: 1;
     margin-right: 10px;
     margin-bottom: 20px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box; 
   }
 
   label {
@@ -72,7 +67,6 @@
     color: rgba(140,140,140,255);
   }
 
-/* Additional styles for the label below the input */
 .form-group label:last-child {
     margin-top: 5px;
     font-size: 0.8em;
@@ -81,21 +75,12 @@
   }
 
   input {
-    width: 100%; /* Ensure inputs take full width of their container */
+    width: 100%; 
     height: 30px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box; 
     border: 1px solid #ccc;
     border-radius: 5px;
-    /* Add other styling as needed */
   }
-
-
-
-
-
-
-
-
 
 .btn-regresarfrm button {
   background-color: rgba(149,149,149,255);
@@ -120,15 +105,11 @@ border: none;
 margin-left: 11%;
 }
 
-
-
 .ddl-plan_formulario button:hover {
   background-color: rgba(230,230,230,255);
   color: black;
   border: 0.1px solid black;
 }
-
-
 
 @media (max-width: 768px) {
 
@@ -136,20 +117,20 @@ margin-left: 11%;
       
       /* Titulo */
       .content-plan_formulario {
-        position: relative; /* Make the container relative for absolute positioning */
+        position: relative; 
         display: flex;
         flex-wrap: nowrap;
         width: 91%;
-        background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); /* Adjust the color as needed */
+        background: linear-gradient(to bottom, rgba(0,35,77,255), rgba(255, 0, 0, 0)); 
         display: grid;
         grid-gap: 15px;
-        margin-left: 5%; /* Increase this value to move it to the right */
+        margin-left: 5%; 
         color: black;
         height: 5%;
       }
 
       .content-plan_formulario h3 {
-        position: relative; /* Make the container relative for absolute positioning */
+        position: relative; 
         display: flex;
         flex-wrap: nowrap;
         display: grid;
@@ -192,8 +173,8 @@ margin-left: 11%;
   }
 
   .form-row.responsive .form-group {
-    width: 100%; /* Make each form-group take full width in the column layout */
-    margin-right: 0; /* Remove right margin to prevent unnecessary spacing */
+    width: 100%; 
+    margin-right: 0; 
   }
   
 
@@ -214,10 +195,5 @@ margin-left: 11%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
-    /* Add other styling as needed */
   }
-
-
-
-
 }
